@@ -209,26 +209,43 @@ body {
   }
   .container {
     background: none;
+    width: 80%;
   }
   .container .login-section {
-    position: unset;
-    width: 80vw;
+    position: absolute;
+    width: 60%;
+    backdrop-filter: none;
+    left: 22%;
+    background: none;
+  }
+  .form-box {
+    margin: 0 20px;
+    background: transparent;
   }
   .container .login-section h2 {
-    font-size: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 40px;
   }
   .input-box input {
-    font-size: 30px;
+    font-size: 15px;
   }
   .remember-password {
-    font-size: 18px;
+    font-size: 12px;
     margin-top: 30px;
     margin-bottom: 30px;
   }
   .btn {
-    font-size: 25px;
+    font-size: 20px;
+    padding-right: 40px;
   }
   .login h2 {
     font-size: 100px;
   }
+  .remember-password {
+    justify-content: start;
+    gap: 80px;
+  }
 }
+
+  
